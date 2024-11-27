@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-ProductsMicroserviceApplication<ProductsMicroservice>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.appdeveloperblog.ws.products.ProductsMicroserviceApplication",
+      "projectName": "ProductsMicroservice",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-EmailNotificationMicroserviceApplication<EmailNotificationMicroservice>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.appdeveloperblog.ws.emailNotification.EmailNotificationMicroserviceApplication",
+      "projectName": "EmailNotificationMicroservice",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
